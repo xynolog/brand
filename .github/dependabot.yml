@@ -1,0 +1,25 @@
+version: 2
+
+# One pull request for the workflows' actions, twice a month at most, proposed
+# on the 1st and the 15th. A release waits a week before it is proposed.
+# Security updates are grouped the same way and raised when an advisory is
+# published, not on the schedule.
+
+updates:
+  - package-ecosystem: github-actions
+    labels: ["dependencies"]
+    directory: /
+    schedule:
+      interval: cron
+      cronjob: "0 6 1,15 * *"
+    open-pull-requests-limit: 1
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions-security:
+        applies-to: security-updates
+        patterns: ["*"]
+      github-actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: ci

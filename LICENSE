@@ -1,9 +1,14 @@
-Copyright 2026 Xynolog. All rights reserved.
+Copyright 2026 Adam Pingel. All rights reserved.
 
 Everything in this repository except fonts/ belongs to Xynolog: the mark, the
 icons made from it, the wordmarks, and the scripts that make them. No licence
-to copy, modify or distribute any of it is granted. "Xynolog" and the mark are
-trademarks of Xynolog.
+to use these materials is granted except for this limited permission: you may
+copy and distribute these assets only as incorporated into an official Xynolog
+product, its website, or its installer, and may use them only as part of that
+product. Recipients may install, run, and display the assets only as part of the
+official product with which they are distributed. This permission does not
+allow standalone use or distribution, modification, or creation of derivative
+works. "Xynolog" and the mark are trademarks of Xynolog.
 
 fonts/ holds Orbitron, Copyright 2018 The Orbitron Project Authors
 (https://github.com/theleagueof/orbitron), licensed under the SIL Open Font
